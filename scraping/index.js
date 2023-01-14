@@ -29,10 +29,13 @@ const getLeaderBoard = async (url) => {
     .replace(/.*:/g, ' ')
     .trim()
 
+  const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
+  const leaderBoard = []
+
   $rows.each((_, el) => {
     const $el = $(el)
 
-    const leaderBoardEntries = Object.entries(LEADERBOARD_SELECTORS).map(([key, { selector, typeOf }]) => {
+    const leaderBoardEntries = leaderBoardSelectorEntries.map(([key, { selector, typeOf }]) => {
       const rawValue = $el.find(selector).text()
       const cleanedValue = cleanText(rawValue)
 
@@ -43,11 +46,11 @@ const getLeaderBoard = async (url) => {
       return [key, value]
     })
 
-    console.log(leaderBoardEntries)
-
-    return leaderBoardEntries
+    leaderBoard.push(Object.fromEntries(leaderBoardEntries))
   })
+
+  return leaderBoard
 }
 
-const leaderBoard = getLeaderBoard(URLS.leaderboard)
+const leaderBoard = await getLeaderBoard(URLS.leaderboard)
 console.log(leaderBoard)

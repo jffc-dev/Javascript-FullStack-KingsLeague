@@ -12,16 +12,16 @@ const scrape = async (url) => {
 
 const getLeaderBoard = async (url) => {
   const LEADERBOARD_SELECTORS = {
-    team: '.fs-table-text_3',
-    victories: '.fs-table-text_4',
-    loses: '.fs-table-text_5',
-    scoredGoals: '.fs-table-text_6',
-    concidedGoals: '.fs-table-text_7',
-    yellowCards: '.fs-table-text_8',
-    redCards: '.fs-table-text_9'
+    team: { selector: '.fs-table-text_3', typeOf: 'string' },
+    wins: { selector: '.fs-table-text_4', typeOf: 'number' },
+    loses: { selector: '.fs-table-text_5', typeOf: 'number' },
+    scoredGoals: { selector: '.fs-table-text_6', typeOf: 'number' },
+    concidedGoals: { selector: '.fs-table-text_7', typeOf: 'number' },
+    yellowCards: { selector: '.fs-table-text_8', typeOf: 'number' },
+    redCards: { selector: '.fs-table-text_9', typeOf: 'number' }
   }
 
-  const $ = await scrape(URLS.leaderboard)
+  const $ = await scrape(url)
   const $rows = $('table tbody tr')
 
   const cleanText = text => text
@@ -29,27 +29,25 @@ const getLeaderBoard = async (url) => {
     .replace(/.*:/g, ' ')
     .trim()
 
-  $rows.each((index, el) => {
+  $rows.each((_, el) => {
     const $el = $(el)
 
-    const leaderBoardEntries = Object.entries(LEADERBOARD_SELECTORS).map(([key, selector]) => {
+    const leaderBoardEntries = Object.entries(LEADERBOARD_SELECTORS).map(([key, { selector, typeOf }]) => {
       const rawValue = $el.find(selector).text()
-      return [key, cleanText(rawValue)]
+      const cleanedValue = cleanText(rawValue)
+
+      const value = typeOf === 'number'
+        ? Number(cleanedValue)
+        : cleanedValue
+
+      return [key, value]
     })
 
     console.log(leaderBoardEntries)
-  })
 
-  const leaderboard = [{
-    team: 'Team 1',
-    wins: 0,
-    loses: 0,
-    goalsScored: 0,
-    goalsConcided: 0,
-    cardsYellow: 0,
-    cardsRed: 0
-  }]
-  // console.log(text);
+    return leaderBoardEntries
+  })
 }
 
-getLeaderBoard()
+const leaderBoard = getLeaderBoard(URLS.leaderboard)
+console.log(leaderBoard)

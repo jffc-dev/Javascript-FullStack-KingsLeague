@@ -1,6 +1,10 @@
 import * as cheerio from 'cheerio'
-import { writeFile } from 'node:fs/promises'
+import { writeFile, readFile } from 'node:fs/promises'
 import path from 'node:path'
+
+const DB_PATH = path.join(process.cwd(), 'db')
+const TEAMS = await readFile(`${DB_PATH}/teams.json`, 'utf-8').then(JSON.parse)
+// import TEAMS from '../db/teams.json' assert {type: 'json'} Not supported by linter
 
 const URLS = {
   leaderboard: 'https://kingsleague.pro/estadisticas/clasificacion/'
@@ -31,6 +35,8 @@ const getLeaderBoard = async (url) => {
     .replace(/.*:/g, ' ')
     .trim()
 
+  const getTeamFromName = ({ name }) => TEAMS.find(team => team.name === name)
+
   const leaderBoardSelectorEntries = Object.entries(LEADERBOARD_SELECTORS)
   const leaderBoard = []
 
@@ -48,7 +54,14 @@ const getLeaderBoard = async (url) => {
       return [key, value]
     })
 
-    leaderBoard.push(Object.fromEntries(leaderBoardEntries))
+    const { team: teamName, ...leaderBoardForTeam } = Object.fromEntries(leaderBoardEntries)
+
+    const team = getTeamFromName({ name: teamName })
+
+    leaderBoard.push({
+      ...leaderBoardForTeam,
+      team
+    })
   })
 
   return leaderBoard
@@ -57,5 +70,4 @@ const getLeaderBoard = async (url) => {
 const leaderBoard = await getLeaderBoard(URLS.leaderboard)
 // console.log(import.meta.url)
 // console.log(path.join(process.cwd()))
-const filePath = path.join(process.cwd(), 'db', 'leaderboard.json')
-await writeFile(filePath, JSON.stringify(leaderBoard, null, 2), 'utf-8')
+await writeFile(`${DB_PATH}/leaderboard.json`, JSON.stringify(leaderBoard, null, 2), 'utf-8')

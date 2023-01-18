@@ -1,0 +1,74 @@
+[
+  {
+    "id": "iker-casillas",
+    "name": "Iker Casillas",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/iker-casillas.png",
+    "teamId": 0
+  },
+  {
+    "id": "juan-guarnizo",
+    "name": "Juan Guarnizo",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/juan-guarnizo.png",
+    "teamId": 0
+  },
+  {
+    "id": "adri-contreras",
+    "name": "Adri Contreras",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/adri-contreras.png",
+    "teamId": 0
+  },
+  {
+    "id": "gerard-romero",
+    "name": "Gerard Romero",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/gerard-romero.png",
+    "teamId": 0
+  },
+  {
+    "id": "kun-aguero",
+    "name": "Kun Agüero",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/kun-aguero.png",
+    "teamId": 0
+  },
+  {
+    "id": "perxitaa",
+    "name": "Perxitaa",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/perxitaa.png",
+    "teamId": 0
+  },
+  {
+    "id": "rivers",
+    "name": "Rivers",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/rivers.png",
+    "teamId": 0
+  },
+  {
+    "id": "ibai-llanos",
+    "name": "Ibai Llanos",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/ibai-llanos.png",
+    "teamId": 0
+  },
+  {
+    "id": "spursito",
+    "name": "Spursito",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/spursito.png",
+    "teamId": 0
+  },
+  {
+    "id": "thegrefg",
+    "name": "TheGrefg",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/thegrefg.png",
+    "teamId": 0
+  },
+  {
+    "id": "djmariio",
+    "name": "DjMaRiiO",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/djmariio.png",
+    "teamId": 0
+  },
+  {
+    "id": "hnos-buyer",
+    "name": "Hnos. Buyer",
+    "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/hnos-buyer.png",
+    "teamId": 0
+  }
+]

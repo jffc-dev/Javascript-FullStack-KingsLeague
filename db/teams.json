@@ -6,6 +6,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/1k.svg",
       "url": "https://kingsleague.pro/team/1k/",
       "channel": "https://www.youtube.com/@IkerCasillas",
+      "presidentId": "iker-casillas",
       "socialNetworks": [
         "https://www.instagram.com/1kfutbolclub/?hl=es",
         "https://twitter.com/1kfutbolclub",
@@ -21,6 +22,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/el-barrio.svg",
       "url": "https://kingsleague.pro/team/el-barrio/",
       "channel": "https://twitch.tv/1k",
+      "presidentId": "adri-contreras",
       "socialNetworks": [
         "https://www.instagram.com/elbarrioklk/?hl=es",
         "https://www.tiktok.com/@adricontreras4",
@@ -36,6 +38,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/ultimate-mostoles.svg",
       "url": "https://kingsleague.pro/team/ultimate-mostoles/",
       "channel": "https://youtube.com/DjMaRiiO",
+      "presidentId": "djmariio",
       "socialNetworks": [
         "https://m.youtube.com/user/DjMaRiiO/videos"
       ],
@@ -48,6 +51,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/los-troncos.svg",
       "url": "https://kingsleague.pro/team/los-troncos-fc/",
       "channel": "https://twitch.tv/perxitaa",
+      "presidentId": "perxitaa",
       "socialNetworks": [
         "https://www.twitch.tv/perxitaa",
         "https://www.instagram.com/troncosfc.oficial/",
@@ -63,6 +67,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/saiyans-fc.svg",
       "url": "https://kingsleague.pro/team/saiyans-fc/",
       "channel": "https://twitch.tv/thegrefg",
+      "presidentId": "thegrefg",
       "socialNetworks": [
         "https://www.twitch.tv/thegrefg"
       ],
@@ -75,6 +80,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/kunisports.svg",
       "url": "https://kingsleague.pro/team/kunisports/",
       "channel": "https://twitch.tv/slakun10",
+      "presidentId": "kun-aguero",
       "socialNetworks": [
         "https://www.twitch.tv/slakun10"
       ],
@@ -87,6 +93,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/jijantes.svg",
       "url": "https://kingsleague.pro/team/jijantes-fc/",
       "channel": "https://twitch.tv/gerardromero",
+      "presidentId": "gerard-romero",
       "socialNetworks": [
         "https://www.twitch.tv/gerardromero",
         "https://www.instagram.com/jijantesfc/?hl=es",
@@ -102,6 +109,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/porcinos-fc.svg",
       "url": "https://kingsleague.pro/team/porcinos-fc/",
       "channel": "https://twitch.tv/ibai",
+      "presidentId": "ibai-llanos",
       "socialNetworks": [
         "https://www.twitch.tv/ibai",
         "https://twitter.com/FCPorcinos"
@@ -115,6 +123,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/rayo-barcelona.svg",
       "url": "https://kingsleague.pro/team/rayo-barcelona/",
       "channel": "https://twitch.tv/spursito",
+      "presidentId": "spursito",
       "socialNetworks": [
         "https://www.twitch.tv/spursito",
         "https://www.instagram.com/rayodebarcelona/?hl=es",
@@ -130,6 +139,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/xbuyer.svg",
       "url": "https://kingsleague.pro/team/xbuyer-team/",
       "channel": "https://www.youtube.com/xbuyer",
+      "presidentId": "hnos-buyer",
       "socialNetworks": [
         "https://www.youtube.com/xbuyer"
       ],
@@ -142,6 +152,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/aniquiladores.svg",
       "url": "https://kingsleague.pro/team/aniquiladores-fc/",
       "channel": "https://twitch.tv/juansguarnizo",
+      "presidentId": "juan-guarnizo",
       "socialNetworks": [
         "https://www.twitch.tv/juansguarnizo"
       ],
@@ -154,6 +165,7 @@
       "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/pio.svg",
       "url": "https://kingsleague.pro/team/pio-fc/",
       "channel": "https://twitch.tv/rivers_gg",
+      "presidentId": "rivers",
       "socialNetworks": [
         "https://www.twitch.tv/rivers_gg",
         "https://twitter.com/PIO_FC"

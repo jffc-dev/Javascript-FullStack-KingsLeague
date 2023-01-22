@@ -25,7 +25,7 @@ jobs:
           run_install: true
       - run: |
           node scraping/leaderboard.js
-          git config user.name jffc-dev
+          git config user.name jffc-dev-bot
           git add -A
           git commit -m "bot(data): Get data from kings league"
           git push origin main

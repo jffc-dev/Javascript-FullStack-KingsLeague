@@ -4,7 +4,7 @@
     "loses": 1,
     "scoredGoals": 14,
     "concidedGoals": 7,
-    "yellowCards": 6,
+    "yellowCards": 3,
     "redCards": 1,
     "team": {
       "color": "#1932e0",
@@ -26,7 +26,7 @@
     }
   },
   {
-    "wins": 0,
+    "wins": 5,
     "loses": 1,
     "scoredGoals": 22,
     "concidedGoals": 15,
@@ -53,11 +53,11 @@
     }
   },
   {
-    "wins": 4,
+    "wins": 5,
     "loses": 1,
     "scoredGoals": 13,
     "concidedGoals": 8,
-    "yellowCards": 6,
+    "yellowCards": 2,
     "redCards": 0,
     "team": {
       "color": "#101920",
@@ -79,36 +79,7 @@
     }
   },
   {
-    "wins": 1,
-    "loses": 3,
-    "scoredGoals": 15,
-    "concidedGoals": 25,
-    "yellowCards": 2,
-    "redCards": 1,
-    "team": {
-      "color": "#31585a",
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/los-troncos.svg",
-      "url": "https://kingsleague.pro/team/los-troncos-fc/",
-      "channel": "https://twitch.tv/perxitaa",
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [],
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/perxitaa.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 0,
+    "wins": 4,
     "loses": 2,
     "scoredGoals": 18,
     "concidedGoals": 14,
@@ -138,7 +109,7 @@
     "loses": 3,
     "scoredGoals": 18,
     "concidedGoals": 17,
-    "yellowCards": 1,
+    "yellowCards": 0,
     "redCards": 0,
     "team": {
       "id": "1k",
@@ -165,8 +136,8 @@
   {
     "wins": 3,
     "loses": 3,
-    "scoredGoals": 14,
-    "concidedGoals": 15,
+    "scoredGoals": 17,
+    "concidedGoals": 18,
     "yellowCards": 1,
     "redCards": 0,
     "team": {
@@ -215,11 +186,40 @@
     }
   },
   {
+    "wins": 3,
+    "loses": 3,
+    "scoredGoals": 20,
+    "concidedGoals": 25,
+    "yellowCards": 2,
+    "redCards": 1,
+    "team": {
+      "color": "#31585a",
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/los-troncos.svg",
+      "url": "https://kingsleague.pro/team/los-troncos-fc/",
+      "channel": "https://twitch.tv/perxitaa",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [],
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/perxitaa.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
     "wins": 2,
     "loses": 4,
     "scoredGoals": 16,
     "concidedGoals": 13,
-    "yellowCards": 2,
+    "yellowCards": 1,
     "redCards": 0,
     "team": {
       "color": "#49b2ad",
@@ -245,10 +245,10 @@
   },
   {
     "wins": 2,
-    "loses": -2,
-    "scoredGoals": 15,
+    "loses": 4,
+    "scoredGoals": 17,
     "concidedGoals": 21,
-    "yellowCards": 1,
+    "yellowCards": 0,
     "redCards": 0,
     "team": {
       "color": "#f6ab34",
@@ -277,7 +277,7 @@
     "loses": 5,
     "scoredGoals": 14,
     "concidedGoals": 16,
-    "yellowCards": 5,
+    "yellowCards": 4,
     "redCards": 0,
     "team": {
       "color": "#fff68d",
@@ -301,10 +301,10 @@
   },
   {
     "wins": 0,
-    "loses": 2,
+    "loses": 6,
     "scoredGoals": 11,
     "concidedGoals": 24,
-    "yellowCards": 3,
+    "yellowCards": 2,
     "redCards": 0,
     "team": {
       "id": "jijantes-fc",

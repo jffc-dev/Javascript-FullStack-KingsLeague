@@ -1,36 +1,10 @@
 [
   {
     "wins": 7,
-    "loses": 2,
-    "scoredGoals": 19,
-    "concidedGoals": 11,
-    "yellowCards": 8,
-    "redCards": 0,
-    "team": {
-      "color": "#1932e0",
-      "id": "saiyans-fc",
-      "name": "Saiyans FC",
-      "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/saiyans-fc.svg",
-      "url": "https://kingsleague.pro/team/saiyans-fc/",
-      "channel": "https://twitch.tv/thegrefg",
-      "socialNetworks": [
-        "https://www.twitch.tv/thegrefg"
-      ],
-      "players": [],
-      "president": {
-        "id": "thegrefg",
-        "name": "TheGrefg",
-        "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/thegrefg.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 7,
-    "loses": 2,
-    "scoredGoals": 29,
-    "concidedGoals": 22,
-    "yellowCards": 7,
+    "loses": 3,
+    "scoredGoals": 31,
+    "concidedGoals": 25,
+    "yellowCards": 6,
     "redCards": 0,
     "team": {
       "color": "#7b7b7b",
@@ -52,10 +26,36 @@
     }
   },
   {
-    "wins": 6,
+    "wins": 7,
     "loses": 3,
-    "scoredGoals": 31,
-    "concidedGoals": 22,
+    "scoredGoals": 20,
+    "concidedGoals": 16,
+    "yellowCards": 4,
+    "redCards": 0,
+    "team": {
+      "color": "#1932e0",
+      "id": "saiyans-fc",
+      "name": "Saiyans FC",
+      "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/saiyans-fc.svg",
+      "url": "https://kingsleague.pro/team/saiyans-fc/",
+      "channel": "https://twitch.tv/thegrefg",
+      "socialNetworks": [
+        "https://www.twitch.tv/thegrefg"
+      ],
+      "players": [],
+      "president": {
+        "id": "thegrefg",
+        "name": "TheGrefg",
+        "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/thegrefg.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 6,
+    "loses": 4,
+    "scoredGoals": 32,
+    "concidedGoals": 23,
     "yellowCards": 9,
     "redCards": 0,
     "team": {
@@ -80,10 +80,39 @@
   },
   {
     "wins": 6,
-    "loses": 3,
-    "scoredGoals": 18,
-    "concidedGoals": 19,
-    "yellowCards": -1,
+    "loses": 4,
+    "scoredGoals": 35,
+    "concidedGoals": 33,
+    "yellowCards": 2,
+    "redCards": 0,
+    "team": {
+      "color": "#31585a",
+      "id": "los-troncos-fc",
+      "name": "Los Troncos FC",
+      "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/los-troncos.svg",
+      "url": "https://kingsleague.pro/team/los-troncos-fc/",
+      "channel": "https://twitch.tv/perxitaa",
+      "socialNetworks": [
+        "https://www.twitch.tv/perxitaa",
+        "https://www.instagram.com/troncosfc.oficial/",
+        "https://twitter.com/lostroncosfc_/",
+        "https://www.tiktok.com/@lostroncosfc_"
+      ],
+      "players": [],
+      "president": {
+        "id": "perxitaa",
+        "name": "Perxitaa",
+        "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/perxitaa.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 6,
+    "loses": 4,
+    "scoredGoals": 19,
+    "concidedGoals": 21,
+    "yellowCards": -2,
     "redCards": 0,
     "team": {
       "color": "#101920",
@@ -106,10 +135,10 @@
   },
   {
     "wins": 5,
-    "loses": 4,
-    "scoredGoals": 29,
-    "concidedGoals": 18,
-    "yellowCards": 11,
+    "loses": 5,
+    "scoredGoals": 30,
+    "concidedGoals": 20,
+    "yellowCards": 10,
     "redCards": 0,
     "team": {
       "color": "#49b2ad",
@@ -135,39 +164,10 @@
   },
   {
     "wins": 5,
-    "loses": 4,
-    "scoredGoals": 29,
-    "concidedGoals": 30,
-    "yellowCards": -1,
-    "redCards": 0,
-    "team": {
-      "color": "#31585a",
-      "id": "los-troncos-fc",
-      "name": "Los Troncos FC",
-      "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/los-troncos.svg",
-      "url": "https://kingsleague.pro/team/los-troncos-fc/",
-      "channel": "https://twitch.tv/perxitaa",
-      "socialNetworks": [
-        "https://www.twitch.tv/perxitaa",
-        "https://www.instagram.com/troncosfc.oficial/",
-        "https://twitter.com/lostroncosfc_/",
-        "https://www.tiktok.com/@lostroncosfc_"
-      ],
-      "players": [],
-      "president": {
-        "id": "perxitaa",
-        "name": "Perxitaa",
-        "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/perxitaa.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 4,
     "loses": 5,
-    "scoredGoals": 21,
-    "concidedGoals": 23,
-    "yellowCards": -2,
+    "scoredGoals": 23,
+    "concidedGoals": 24,
+    "yellowCards": -1,
     "redCards": 0,
     "team": {
       "color": "#979797",
@@ -189,11 +189,11 @@
     }
   },
   {
-    "wins": 4,
+    "wins": 5,
     "loses": 5,
-    "scoredGoals": 28,
-    "concidedGoals": 30,
-    "yellowCards": -2,
+    "scoredGoals": 30,
+    "concidedGoals": 31,
+    "yellowCards": -1,
     "redCards": 0,
     "team": {
       "id": "1k",
@@ -218,10 +218,10 @@
     }
   },
   {
-    "wins": 4,
+    "wins": 5,
     "loses": 5,
-    "scoredGoals": 23,
-    "concidedGoals": 27,
+    "scoredGoals": 24,
+    "concidedGoals": 28,
     "yellowCards": -4,
     "redCards": 0,
     "team": {
@@ -244,11 +244,11 @@
     }
   },
   {
-    "wins": 3,
+    "wins": 4,
     "loses": 6,
-    "scoredGoals": 22,
-    "concidedGoals": 22,
-    "yellowCards": 0,
+    "scoredGoals": 25,
+    "concidedGoals": 24,
+    "yellowCards": 1,
     "redCards": 0,
     "team": {
       "color": "#fff68d",
@@ -272,10 +272,10 @@
   },
   {
     "wins": 3,
-    "loses": 6,
-    "scoredGoals": 23,
-    "concidedGoals": 30,
-    "yellowCards": -7,
+    "loses": 7,
+    "scoredGoals": 26,
+    "concidedGoals": 36,
+    "yellowCards": -10,
     "redCards": 0,
     "team": {
       "color": "#f6ab34",
@@ -300,11 +300,11 @@
     }
   },
   {
-    "wins": 0,
+    "wins": 1,
     "loses": 9,
-    "scoredGoals": 17,
-    "concidedGoals": 35,
-    "yellowCards": -18,
+    "scoredGoals": 22,
+    "concidedGoals": 36,
+    "yellowCards": -14,
     "redCards": 0,
     "team": {
       "id": "jijantes-fc",

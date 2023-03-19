@@ -1,10 +1,10 @@
 [
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 8,
+    "loses": 3,
+    "scoredGoals": 34,
+    "concidedGoals": 27,
+    "yellowCards": 7,
     "redCards": 0,
     "team": {
       "color": "#7b7b7b",
@@ -26,11 +26,11 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 7,
+    "loses": 4,
+    "scoredGoals": 37,
+    "concidedGoals": 26,
+    "yellowCards": 11,
     "redCards": 0,
     "team": {
       "color": "#d91f5d",
@@ -53,11 +53,11 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 7,
+    "loses": 4,
+    "scoredGoals": 40,
+    "concidedGoals": 34,
+    "yellowCards": 6,
     "redCards": 0,
     "team": {
       "color": "#31585a",
@@ -82,11 +82,11 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 7,
+    "loses": 4,
+    "scoredGoals": 21,
+    "concidedGoals": 18,
+    "yellowCards": 3,
     "redCards": 0,
     "team": {
       "color": "#1932e0",
@@ -108,11 +108,11 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 7,
+    "loses": 4,
+    "scoredGoals": 23,
+    "concidedGoals": 22,
+    "yellowCards": 1,
     "redCards": 0,
     "team": {
       "color": "#101920",
@@ -134,10 +134,10 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
+    "wins": 6,
+    "loses": 5,
+    "scoredGoals": 25,
+    "concidedGoals": 25,
     "yellowCards": 0,
     "redCards": 0,
     "team": {
@@ -160,11 +160,37 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 6,
+    "loses": 5,
+    "scoredGoals": 29,
+    "concidedGoals": 30,
+    "yellowCards": -1,
+    "redCards": 0,
+    "team": {
+      "id": "aniquiladores-fc",
+      "color": "#ea4163",
+      "name": "Aniquiladores FC",
+      "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/aniquiladores.svg",
+      "url": "https://kingsleague.pro/team/aniquiladores-fc/",
+      "channel": "https://twitch.tv/juansguarnizo",
+      "socialNetworks": [
+        "https://www.twitch.tv/juansguarnizo"
+      ],
+      "players": [],
+      "president": {
+        "id": "juan-guarnizo",
+        "name": "Juan Guarnizo",
+        "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/juan-guarnizo.png",
+        "teamId": 0
+      }
+    }
+  },
+  {
+    "wins": 5,
+    "loses": 6,
+    "scoredGoals": 33,
+    "concidedGoals": 25,
+    "yellowCards": 8,
     "redCards": 0,
     "team": {
       "color": "#49b2ad",
@@ -189,11 +215,11 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 5,
+    "loses": 6,
+    "scoredGoals": 32,
+    "concidedGoals": 34,
+    "yellowCards": -2,
     "redCards": 0,
     "team": {
       "id": "1k",
@@ -218,37 +244,11 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
-    "redCards": 0,
-    "team": {
-      "id": "aniquiladores-fc",
-      "color": "#ea4163",
-      "name": "Aniquiladores FC",
-      "image": "https://kings-league-api.jffc-dev.workers.dev/static/logos/aniquiladores.svg",
-      "url": "https://kingsleague.pro/team/aniquiladores-fc/",
-      "channel": "https://twitch.tv/juansguarnizo",
-      "socialNetworks": [
-        "https://www.twitch.tv/juansguarnizo"
-      ],
-      "players": [],
-      "president": {
-        "id": "juan-guarnizo",
-        "name": "Juan Guarnizo",
-        "image": "https://kings-league-api.jffc-dev.workers.dev/static/presidents/juan-guarnizo.png",
-        "teamId": 0
-      }
-    }
-  },
-  {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 4,
+    "loses": 7,
+    "scoredGoals": 27,
+    "concidedGoals": 29,
+    "yellowCards": -2,
     "redCards": 0,
     "team": {
       "color": "#fff68d",
@@ -271,11 +271,11 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 3,
+    "loses": 8,
+    "scoredGoals": 27,
+    "concidedGoals": 40,
+    "yellowCards": -13,
     "redCards": 0,
     "team": {
       "color": "#f6ab34",
@@ -300,11 +300,11 @@
     }
   },
   {
-    "wins": 0,
-    "loses": 0,
-    "scoredGoals": 0,
-    "concidedGoals": 0,
-    "yellowCards": 0,
+    "wins": 1,
+    "loses": 10,
+    "scoredGoals": 23,
+    "concidedGoals": 41,
+    "yellowCards": -18,
     "redCards": 0,
     "team": {
       "id": "jijantes-fc",

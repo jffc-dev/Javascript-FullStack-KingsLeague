@@ -23,7 +23,11 @@ jobs:
           run_install: true
       - run: |
           node scraping/leaderboard.js
-          git config user.name jffc-dev-bot
+          git config --global user.name "jffc-dev-bot"
+          git config --global user.email "jffc.dev@gmail.com"
+          echo "https://$TOKEN:x-oauth-basic@github.com" > ~/.git-credentials
           git add -A
           git commit -m "bot(data): Get data from kings league"
           git push origin main
+        env:
+          TOKEN: ${{ secrets.CF_API_TOKEN }}

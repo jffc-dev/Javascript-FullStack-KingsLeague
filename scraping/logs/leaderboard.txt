@@ -352,3 +352,4 @@ Leaderboard data was successfully scrapped 29/02/2024 00:46:48.
 Leaderboard data was successfully scrapped 29/02/2024 06:14:00.
 Leaderboard data was successfully scrapped 29/02/2024 12:18:56.
 Leaderboard data was successfully scrapped 29/02/2024 18:13:45.
+Leaderboard data was successfully scrapped 01/03/2024 00:52:21.

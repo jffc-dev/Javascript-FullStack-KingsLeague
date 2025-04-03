@@ -1938,3 +1938,4 @@ Leaderboard data was successfully scrapped 02/04/2025 18:20:19.
 Leaderboard data was successfully scrapped 03/04/2025 01:09:07.
 Leaderboard data was successfully scrapped 03/04/2025 06:21:27.
 Leaderboard data was successfully scrapped 03/04/2025 12:28:53.
+Leaderboard data was successfully scrapped 03/04/2025 18:19:53.

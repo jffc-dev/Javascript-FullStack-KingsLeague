@@ -1943,3 +1943,4 @@ Leaderboard data was successfully scrapped 04/04/2025 01:08:46.
 Leaderboard data was successfully scrapped 04/04/2025 06:20:28.
 Leaderboard data was successfully scrapped 04/04/2025 12:28:16.
 Leaderboard data was successfully scrapped 04/04/2025 18:19:32.
+Leaderboard data was successfully scrapped 05/04/2025 01:07:53.

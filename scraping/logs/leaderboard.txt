@@ -1954,3 +1954,4 @@ Leaderboard data was successfully scrapped 06/04/2025 18:17:43.
 Leaderboard data was successfully scrapped 07/04/2025 01:11:25.
 Leaderboard data was successfully scrapped 07/04/2025 06:21:15.
 Leaderboard data was successfully scrapped 07/04/2025 12:30:07.
+Leaderboard data was successfully scrapped 07/04/2025 18:20:02.

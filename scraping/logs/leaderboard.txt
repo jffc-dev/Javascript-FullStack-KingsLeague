@@ -2430,3 +2430,4 @@ Leaderboard data was successfully scrapped 04/08/2025 01:27:39.
 Leaderboard data was successfully scrapped 04/08/2025 06:31:34.
 Leaderboard data was successfully scrapped 04/08/2025 12:36:46.
 Leaderboard data was successfully scrapped 04/08/2025 18:25:24.
+Leaderboard data was successfully scrapped 05/08/2025 01:24:03.

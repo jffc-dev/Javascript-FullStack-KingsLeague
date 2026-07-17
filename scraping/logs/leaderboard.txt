@@ -3809,3 +3809,4 @@ Leaderboard data was successfully scrapped 16/07/2026 02:08:38.
 Leaderboard data was successfully scrapped 16/07/2026 08:04:31.
 Leaderboard data was successfully scrapped 16/07/2026 13:39:40.
 Leaderboard data was successfully scrapped 16/07/2026 19:02:19.
+Leaderboard data was successfully scrapped 17/07/2026 02:11:38.
